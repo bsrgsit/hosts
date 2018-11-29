@@ -635,6 +635,9 @@
 0.0.0.0 www.camsoda.com
 0.0.0.0 msmetrics.ws.sonos.com
 0.0.0.0 betpromo247.com
+0.0.0.0 fp-analytics.hotstar.com
+0.0.0.0 hb-analytics.hotstar.com
+
 
 # Block ads on Voot streaming app @anudeepND
 0.0.0.0 in-viacom18.videoplaza.tv
@@ -675,6 +678,8 @@
 0.0.0.0 v10.vortex-win.data.microsoft.com
 # Connected User Experience and Diagnostic component endpoint for operating systems older than Windows 10
 0.0.0.0 vortex-win.data.microsoft.com
+# Connected User Experience and Diagnostic component endpoint for use with Windows versions that have KB4458469 installed (Windows 10 1803 with the september 2018 update and higher)
+0.0.0.0 v10c.events.data.microsoft.com
 
 # Office 2016 'Connected User Experience' Telemetry
 # OneNote Telemetry Service
@@ -944,6 +949,10 @@
 0.0.0.0 best2017games.com
 0.0.0.0 www.bet365.com
 
+# Massive logout sites 
+0.0.0.0 theannoyingsite.com
+0.0.0.0 superlogout.github.io
+
 # Other
 0.0.0.0 api.userstyles.org
 0.0.0.0 hrtya.com
@@ -951,4 +960,16 @@
 0.0.0.0 adscan.yelabapp.com
 0.0.0.0 myfreecams.com
 0.0.0.0 www.myfreecams.com
+0.0.0.0 icloud.com-locations.in
+0.0.0.0 cradver.livejasmin.com
+
+
+# See Issue #844 – Windows telemetry servers – https://github.com/StevenBlack/hosts/issues/844
+alpha.telemetry.microsft.com
+eu.vortex-win.data.microsft.com
+oca.telemetry.microsft.com
+us.vortex-win.data.microsft.com
+v10-win.vortex.data.microsft.com.akadns.net
+v10.vortex-win.data.microsft.com
+
 #=====================================
